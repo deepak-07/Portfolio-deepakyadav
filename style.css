@@ -35,10 +35,9 @@ hr {
 
 .link {
     text-decoration: none;
-    padding: 1rem 0.5rem;
-    margin-right: 1.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    /* margin-right: 1.5rem; */
     /* margin-bottom: 5rem; */
-    border-radius: 0.5rem;
     width: max-content;
     min-width: 140px;
     padding: 0.5rem 1rem;
@@ -47,11 +46,12 @@ hr {
 
 .primary-link {
     background-color: var(--primary-color);
+    border-radius: 0.5rem;
 }
 
 .secondary-link {
     background-color: var(--secondary-color);
-    
+    border-radius: 0.5rem;
 }
 
 
@@ -93,6 +93,7 @@ hr {
 }
 
 .hero img {
+    padding: 1rem;
     max-width: 350px;
     margin: auto;
     display: block;
