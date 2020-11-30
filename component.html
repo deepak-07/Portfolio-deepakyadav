@@ -9,85 +9,104 @@
 </head>
 
 <body>
-    @typography
+    <h1> component library </h1>
+    <p><strong>Adarsh Balika</strong> is attending neog.camp and is currently completing levelZero one weekend and assignment at a time.</p>
+    <p>This is a component library created by her to better design each element.</p>
+    <p>After creating this library she is going to use the components in her <strong>portfolio, blog and all projects</strong> created. This will ensure that all her projects have <strong>consistent themeing and styling</strong></p>
+
+    <hr>
+    <h2> @typography</h2>
     <h1>The biggest heading</h1>
     <h2>The second biggest heading h2</h2>
     <p>This is a normal text. Long runnung text would look like this on your website.this will auto fold based on the width</p>
     <small>This is relatively smaller text.</small>
 
-    <hr> @containers @fluid containers
-    <div>
+    <hr>
+    <h2> @containers</h2>
+    <h2> @fluid containers</h2>
+    <div class="container-fluid">
         <p>This is going to be a fluid container. It will go full width of page. With some margin.
         </p>
     </div>
-    @center container
-    <div>
+    <h2> @center container</h2>
+    <div class="container container-center">
         <p>This is going to be a center container. It will go till a given width and center content.
     </div>
     </p>
-    <hr> @links
-    <div>
-        <a href="/">Primary link</a>
-        <a href="/">Secondary link</a>
+    <hr>
+    <h2> @links</h2>
+    <div class="container">
+        <a class="link primary-link" href="/">Primary link</a>
+        <a class="link secondary-link" href="/">Secondary link</a>
     </div>
-    <hr> @list
+    <hr>
+    <h2> @list</h2>
     <h3>unordered lists</h3>
     <p>We don't want to show bullets in the unordered list. We'll remove that with CSS.
     </p>
-    <ul>
+    <ul class="unordered">
         <li>item one</li>
         <li>item two</li>
         <li>item three</li>
     </ul>
     <h3>inline lists</h3>
     <p>Instead of going in a new row, we will create a list which will take columns.</p>
-    <ul>
+    <ul class=" unordered unordered-inline">
         <li>item one</li>
         <li>item two</li>
         <li>item three</li>
     </ul>
     <h3>reverse ordered lists</h3>
     <p>Counting of will go reverse for this list</p>
-    <ol>
+    <ol reversed>
         <li>something</li>
         <li>somwthing else</li>
         <li>something elser</li>
     </ol>
-    <hr> @ nav
+    <hr>
+    <h2> @ nav</h2>
     <p>Navigation is used on the top of the page and used to get to different pages</p>
-    <h3>theBrandName</h3>
-    <ul>
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-    <hr> @header
-    <img src="/images/img.svg" />
-    <h1>this is heading h1 inside header</h1>
-    <hr> @section
+    <nav class="navigation">
+        <div class="brand-name">theBrandName</div>
+        <ul class="unordered-inline">
+            <li>item one</li>
+            <li>item two</li>
+            <li>item three</li>
+        </ul>
+    </nav>
+
+    <hr>
+    <h2> @header</h2>
+
+    <header class="hero">
+        <img src="/images/img.svg" />
+        <h1>this is heading h1 inside header</h1>
+    </header>
+    <hr>
+
+    <h2>@section </h2>
     <p>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</p>
-    @normal section
-    <div>
+    <h2>@normal section </h2>
+    <div class="section">
         <h2>Heading inside section</h2>
         <p>Text defining this section and many more things</p>
 
-        <a href="/">Primary button</a>
+        <a class=" link primary-link" href="/">Primary button</a>
     </div>
-    @an off white section
-    <div>
+    <h2>@an off white section</h2>
+    <div class="section-ow">
         <h2>inside off white section</h2>
         <p>Tect defining this section and many more things</p>
-        <a href="/">Seconary button</a>
+        <a class="link secondary-link" href="/">Seconary button</a>
     </div>
     <hr>
-    @footer
-    <div>
+    <h2> @footer</h2>
+    <div class="footer">
         <h3>Heading inside footer</h3>
-        <ul>
-            <li>socialone</li>
-            <li>socialtwo</li>
-            <li>socialthree</li>
-
+        <ul class="unordered-inline">
+            <li><a class="link" href="/">socialone</a></li>
+            <li><a class="link" href="/">socialtwo</a></li>
+            <li><a class="link" href="/">socialthree</a></li>
         </ul>
     </div>
 
