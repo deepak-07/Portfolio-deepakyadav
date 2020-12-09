@@ -96,6 +96,7 @@ hr {
 /* header */
 
 .hero {
+    margin: auto;
     text-align: center;
 }
 
